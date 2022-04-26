@@ -9,9 +9,10 @@ namespace ObjectOrientedPrograms.InventoryDataManagement
 {
     public class InventoryManagement
     {
-        public void DisplayInventory(string filepath)
+        //InventoryData data = new InventoryData();
+        public void DisplayInventory(string filePath)
         {
-            using (StreamReader reader = new StreamReader(filepath))
+            using (StreamReader reader = new StreamReader(filePath))
             {
                 var json = reader.ReadToEnd();
                 var inventory = JsonConvert.DeserializeObject<List<InventoryData>>(json);

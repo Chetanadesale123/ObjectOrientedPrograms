@@ -1,0 +1,53 @@
+{
+  "RiceList": [
+    {
+      "Name": "Rice10",
+      "Price": 80,
+      "Weight": 15
+    },
+    {
+      "Name": "Rice20",
+      "Price": 160,
+      "Weight": 17
+    },
+    {
+      "Name": "Rice30",
+      "Price": 130,
+      "Weight": 13
+    }
+  ],
+  "PulsesList": [
+    {
+      "Name": "Pulses11",
+      "Price": 80,
+      "Weight": 15
+    },
+    {
+      "Name": "Pulses22",
+      "Price": 100,
+      "Weight": 16
+    },
+    {
+      "Name": "Pulses33",
+      "Price": 143,
+      "Weight": 15
+    }
+  ],
+  "WheatList": [
+    {
+      "Name": "Wheat12",
+      "Price": 20,
+      "Weight": 50
+    },
+    {
+      "Name": "Wheat24",
+      "Price": 14,
+      "Weight": 50
+    },
+    {
+      "Name": "Wheat36",
+      "Price": 18,
+      "Weight": 45
+    }
+  ]
+}
