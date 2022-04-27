@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ObjectOrientedPrograms.StockCompanyAccount
+namespace ObjectOrientedPrograms.StockAccount
 {
-    public class CompanyStockData
+    public class StockData
     {
         public int NumberOFShare { get; set; }
         public int PriceOfShare { get; set; }

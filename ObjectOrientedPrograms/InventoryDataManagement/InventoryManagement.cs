@@ -10,6 +10,7 @@ namespace ObjectOrientedPrograms.InventoryDataManagement
     public class InventoryManagement
     {
         //InventoryData data = new InventoryData();
+        const string InDataFilePath = @"R:\Practice_problem_Bridgelabz\ObjectOrientedPrograms\ObjectOrientedPrograms\InventoryDataManagement\Inventory.json";
         public void DisplayInventory(string filePath)
         {
             using (StreamReader reader = new StreamReader(filePath))

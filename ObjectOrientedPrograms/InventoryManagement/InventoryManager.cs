@@ -80,7 +80,7 @@ namespace ObjectOrientedPrograms.InventoryManagement
             {
                 foreach (InventoryData data in WheatList)
                 {
-                    if (data.Equals(grains))
+                    if (data.Name.Equals(grains))
                     {
                         Console.WriteLine("Choose Option to edit");
                         int check = Convert.ToInt32(Console.ReadLine());
@@ -105,7 +105,7 @@ namespace ObjectOrientedPrograms.InventoryManagement
             {
                 foreach (InventoryData data in PulsesList)
                 {
-                    if (data.Equals(grains))
+                    if (data.Name.Equals(grains))
                     {
                         Console.WriteLine("Choose Option to edit");
                         int check = Convert.ToInt32(Console.ReadLine());
