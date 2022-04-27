@@ -1,0 +1,53 @@
+{
+  "StockList1": [
+    {
+      "NumberOFShare": 500,
+      "PriceOfShare": 80,
+      "StockName":"TataMotors" 
+    },
+    {
+      "NumberOFShare": 1000,
+      "PriceOfShare": 35,
+      "StockName": "Mahindra"
+    },
+    {
+      "NumberOFShare": 1500,
+      "PriceOfShare": 45,
+      "StockName": "PrakashSteel"
+    }
+  ],
+  "StockList2": [
+    {
+      "NumberOFShare": 80,
+      "PriceOfShare": 15,
+      "StockName": "TataPower"
+    },
+    {
+      "NumberOFShare": 40,
+      "PriceOfShare": 85,
+      "Weight": "AdaniGroup"
+    },
+    {
+      "NumberOFShare": 1500,
+      "PriceOfShare": 17,
+      "StockName":"Upstock"
+    }
+  ],
+  "StockList3": [
+    {
+      "NumberOFShare": 1400,
+      "PriceOfShare": 20,
+      "StockName": "Tesla"
+    },
+    {
+      "NumberOFShare": 1200,
+      "PriceOfShare": 14,
+      "StockName": "Nayka"
+    },
+    {
+      "NumberOFShare": 1300,
+      "PriceOfShare": 18,
+      "StockName": "Amazon"
+    }
+  ]
+}
