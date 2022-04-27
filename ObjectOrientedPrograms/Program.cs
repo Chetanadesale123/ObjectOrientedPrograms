@@ -7,7 +7,8 @@ class Program
 {
     static void Main(String[] args)
     {
-        const string INVENTORY_DATA_PATH = @"R:\Practice_problem_Bridgelabz\ObjectOrientedPrograms\ObjectOrientedPrograms\InventoryDataManagement\Inventory.json";
+        
+        const string INVENTORY_DATA_PATH = @"R:\Practice_problem_Bridgelabz\ObjectOrientedPrograms\ObjectOrientedPrograms\InventoryManagement\InventoryList.json";
         InventoryManagement inventoryManagement = new InventoryManagement();
         InventoryManager manager = new InventoryManager();
         InventoryData data = new InventoryData();   
@@ -25,6 +26,10 @@ class Program
                 case 2:
                     Console.WriteLine("Enter the inventrory data and inventory list");
                     string inventoryName1 = Console.ReadLine();
+                    Console.WriteLine(" Enter inventory Details");
+                    data.Name=Console.ReadLine();
+                    data.Weight = Convert.ToInt32(Console.ReadLine());
+                    data.PricePerKg = Convert.ToInt32(Console.ReadLine());
                     manager.AddInventory(data,inventoryName1,INVENTORY_DATA_PATH);
                      break;
                 case 3:

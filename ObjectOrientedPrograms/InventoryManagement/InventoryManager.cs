@@ -46,15 +46,16 @@ namespace ObjectOrientedPrograms.InventoryManagement
             details.PulsesList = PulsesList;
             factory.WriteToJson(filePath, details);
         }
-        public void EditInventory(string inventoyName,string grains,string filePath)
+        public void EditInventory(string inventoryName,string grains,string filePath)
         {
+            ReadData(filePath);
             InventoryData inventory = new InventoryData();
-             string inventoryName=Console.ReadLine();
+             //string inventoryName=Console.ReadLine();
             if (inventoryName.Equals("Rice"))
             {
                 foreach(InventoryData data in RiceList)
                 {
-                    if (data.Equals(grains))
+                    if (data.Name.Equals(grains))
                     {
                         Console.WriteLine("Choose Option to edit");
                         int check = Convert.ToInt32(Console.ReadLine());

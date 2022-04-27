@@ -1,0 +1,32 @@
+[
+  {
+    "NumberOFShare": 500,
+    "PriceOfShare": 80,
+    "StockName": "TataMotors"
+  },
+  {
+    "NumberOFShare": 1000,
+    "PriceOfShare": 35,
+    "StockName": "Mahindra"
+  },
+  {
+    "NumberOFShare": 1500,
+    "PriceOfShare": 45,
+    "StockName": "PrakashSteel"
+  },
+  {
+    "NumberOFShare": 80,
+    "PriceOfShare": 15,
+    "StockName": "TataPower"
+  },
+  {
+    "NumberOFShare": 40,
+    "PriceOfShare": 85,
+    "StockName": "Adani"
+  },
+  {
+    "NumberOFShare": 1500,
+    "PriceOfShare": 17,
+    "StockName": "SBank"
+  }
+] 
